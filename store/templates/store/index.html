@@ -1,0 +1,282 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Mehta Engineering Equipments</title>
+    <link rel="icon" href="{% static 'store/img/mehta/top.png' %}">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{% static 'store/css/bootstrap.min.css' %}">
+    <!-- animate CSS -->
+    <link rel="stylesheet" href="{% static 'store/css/animate.css' %}">
+    <!-- owl carousel CSS -->
+    <link rel="stylesheet" href="{% static 'store/css/owl.carousel.min.css' %}">
+    <!-- themify CSS -->
+    <link rel="stylesheet" href="{% static 'store/css/themify-icons.css' %}">
+    <!-- flaticon CSS -->
+    <link rel="stylesheet" href="{% static 'store/css/flaticon.css' %}">
+    <!-- font awesome CSS -->
+    <link rel="stylesheet" href="{% static 'store/css/magnific-popup.css' %}">
+    <!-- swiper CSS -->
+    <link rel="stylesheet" href="{% static 'store/css/swiper.min.css' %}">
+    <!-- style CSS -->
+    <link rel="stylesheet" href="{% static 'store/css/style.css' %}">
+</head>
+
+<body>
+    <!--::header part start::-->
+    <header class="header_area">
+        <div class="sub_header">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-4 col-xl-6">
+                        <div id="logo">
+                            <a href="{% url 'index' %}"><img src="{% static 'img/Logo.png' %}" alt="" title="" /></a>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-xl-6">
+
+                        <div class="sub_header_social_icon float-right">
+                            <a href="#"><i class="flaticon-phone"></i>+91 7977562766</a>
+                            <a href="#">Mehta Engineering Equipments</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main_menu">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav mr-auto">
+                                    <li class="nav-item active">
+                                        <a class="nav-link acitve" href="{% url 'index' %}">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="{% url 'about' %}" class="nav-link">About us</a>
+                                    </li>
+                                    
+                                    <li class="nav-item">
+                                        <a href="{% url 'products' %}" class="nav-link">Products</a>
+                                    </li>
+                                   
+                                    <li class="nav-item">
+                                        <a href="{% url 'contact' %}" class="nav-link">Contact</a>
+                                    </li>
+                                </ul>
+                                <div class="header_social_icon d-none d-lg-block">
+                                    <ul>
+                                        <li><a href="#"><i class="ti-facebook"></i></a></li>
+                                        <li>
+                                            <a href="#"> <i class="ti-twitter"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                        <div class="header_social_icon d-block d-lg-none">
+                            <ul>
+                                <li><a href="#"><i class="ti-facebook"></i></a></li>
+                                <li>
+                                    <a href="#"> <i class="ti-twitter"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header part end-->
+
+    <!-- banner part start-->
+    <section class="banner_part">
+        <div class="container">
+            <div class="row align-content-center">
+                <div class="col-lg-7 col-xl-5">
+                    <div class="banner_text">
+                        <!-- <h1><span>MEHTA ENGINEERING</span><br>
+                            EQUIPMENTS</h1>. -->
+                            <br><br><br><br><br><br>
+                            <br><br>
+
+                        <a href="{% url 'products' %}" class="btn_1">learn more <span class="ti-angle-right"></span> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- banner part start-->
+
+    <!-- about part start-->
+    <section class="about_part">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-6 offset-xl-1 col-xl-4">
+                    <div class="about_img">
+                        <img src="{% static 'store/img/mehta/drum--twister--1.png' %}" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-4">
+                    <div class="about_text">
+                        <h4>About us</h4>
+                        <h2 style="font-family: 'Roboto', sans-serif; color:#7e7e7e">Welcome  to The<br>
+                            World of Engineering Equipments</h2>
+                        <p>In the industry since 1995, a huge experience from our side and trust from yours, we together create enormous things useful in the industry. </p>
+
+                        <p>We provide on-time delivery with competetive rates and value our customers greatly.  </p>
+                        <a href="{% url 'about' %}" class="btn_2">read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about part start-->
+
+
+    <!-- about part start-->
+    <section class="about_part recreational_part">
+        <div class="container-fluid">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md-6 offset-xl-1 col-xl-4">
+                    <div class="about_text">
+                        <h4>Products</h4>
+                        <h2 style="font-family: 'Roboto', sans-serif; color:#7e7e7e">Genuine Products with an on-time delivery.</h2>
+                        <p>Best Fit Products for YOUR machines in a very competeitive rate with ON-Time Delivery helps us serve you well.</p>
+                        <p>Always longing for perfection, we provide you with the best of products supporting a wide variety that helps us serve you better. </p>
+                        <a href="{% url 'products' %}" class="btn_2">read more</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-4">
+                    <div class="about_img">
+                        <!-- Slideshow container -->
+                        <div class="slideshow-container">
+
+                            <!-- Full-width images with number and caption text -->
+                            <div class="mySlides fade">
+                            <div class="numbertext">1 / 3</div>
+                            <img src="{% static 'store/img/mehta/drum--twister--1.png' %}" style="width:100%">
+                            </div>
+                        
+                            <div class="mySlides fade">
+                            <div class="numbertext">3 / 3</div>
+                            <img src="{% static 'store/img/mehta/ball--bearing/ball--1.jpg' %}" style="width:100%">
+                            </div>
+
+                            <div class="mySlides fade">
+                                <div class="numbertext">3 / 3</div>
+                                <img src="{% static 'store/img/mehta/grinding/abrasive.jpg' %}" style="width:100%">
+                            </div>
+
+                            <div class="mySlides fade">
+                                <div class="numbertext">3 / 3</div>
+                                <img src="{% static 'store/img/mehta/handtools/e-socket.jpg' %}" style="width:100%">
+                            </div>
+
+                            <div class="mySlides fade">
+                                <div class="numbertext">3 / 3</div>
+                                <img src="{% static 'store/img/mehta/hosepipe/hosepipe2.jpg' %}" style="width:100%">
+                            </div>
+
+                            <div class="mySlides fade">
+                                <div class="numbertext">3 / 3</div>
+                                <img src="{% static 'store/img/mehta/measuringinstruments/guage.jpg' %}" style="width:100%">
+                            </div>
+                        
+                            <!-- Next and previous buttons
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
+                        </div>
+                        <br> 
+                        <!-- The dots/circles -->
+                        <!-- <div style="text-align:center">
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+                        </div> -->
+                        
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about part start-->
+
+
+    <footer class="copyright_part">
+        <div class="container">
+            <div class="row align-items-center">
+                <p class="footer-text m-0 col-lg-8 col-md-12">
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    Copyright &copy;<script>
+                        document.write(new Date().getFullYear());
+                    </script> All rights reserved | This template is made with <i class="ti-heart"
+                        aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Mihir</a>
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                </p>
+                <div class="col-lg-4 col-md-12 text-center text-lg-right footer-social">
+                    <a href="#"><i class="ti-facebook"></i></a>
+                    <a href="#"> <i class="ti-twitter"></i> </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer part end-->
+
+    <!-- jquery plugins here-->
+    <!-- jquery -->
+    <script src="{% static 'store/js/jquery-1.12.1.min.js' %}"></script>
+    <!-- popper js -->
+    <script src="{% static 'store/js/popper.min.js' %}"></script>
+    <!-- bootstrap js -->
+    <script src="{% static 'store/js/bootstrap.min.js' %}"></script>
+    <!-- aos js -->
+    <script src="{% static 'store/js/aos.js' %}"></script>
+    <!-- easing js -->
+    <script src="{% static 'store/js/jquery.magnific-popup.js' %}"></script>
+    <!-- swiper js -->
+    <script src="{% static 'store/js/swiper.min.js' %}"></script>
+    <!-- swiper js -->
+    <script src="{% static 'store/js/masonry.pkgd.js' %}"></script>
+    <!-- particles js -->
+    <script src="{% static 'store/js/owl.carousel.min.js' %}"></script>
+    <!-- carousel js -->
+    <script src="{% static 'store/js/swiper.min.js' %}"></script>
+    <!-- swiper js -->
+    <script src="{% static 'store/js/swiper_custom.js' %}"></script>
+    <!-- custom js -->
+    <script src="{% static 'store/js/custom.js' %}"></script>
+
+    <script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 1800); // Change image every 2 seconds
+}
+    </script>
+
+
+</body>
+
+</html>
