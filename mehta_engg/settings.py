@@ -77,12 +77,14 @@ TEMPLATES = [
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'd72f6csdnbh6bc',
+        'HOST': 'ec2-54-228-174-49.eu-west-1.compute.amazonaws.com',
+        'PORT': 5432,
+        'USER': 'syirwhwmmkegmf',
+        'PASSWORD': '3178ab3e3f6c6dea14bea76b18412bd8b2078f9fc5b4e8a89ed5c16eddf6ae5d',
     }
 }
-
-
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
 
